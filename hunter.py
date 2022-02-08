@@ -60,3 +60,6 @@ if __name__ == "__main__":
     
     h = hunter()
     print(h.degat)
+    hh= hunter()
+    hh.degat=2
+    print(hh.degat) 
