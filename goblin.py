@@ -22,3 +22,11 @@ class goblin:
     def loot(self, value):
         self.__loot = value
     
+if __name__ == "__main__":
+    g=goblin()
+    print(g.degat)
+    print(g.loot)
+    g2=goblin()
+    print(g2.degat)
+    print(g2.loot)  
+      
